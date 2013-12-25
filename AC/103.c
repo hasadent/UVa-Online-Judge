@@ -80,6 +80,7 @@ int main()
                 max_i = i;
                 max_l = len[i];
             }
+    
         /* output */
         printf("%d\n",max_l);
         i = max_i;
