@@ -1,0 +1,281 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef enum side {UNKNOWN = -1, GROOM_SIDE = 0, BRIDE_SIDE = 1} side;
+#define ADD_EDGE(v0, v1, r1) { v[v0].e[v[v0].c] = v1; v[v0].r[v[v0].c] = r1; v[v0].c ++; }
+
+
+struct v{
+    int c;
+    int e[60];
+    int r[60];
+    side tf;
+};
+
+struct v v[60];
+int n;
+
+#define SEARCH_RESET()  searched++;
+int search[60];
+int searched = 1;
+int path[60];
+int path_i[60];
+int pc = 0;
+
+int has_path(int s, int d)
+{
+    int i;
+
+    if (s == -1) return 0;
+    if (search[s] == searched) return 0;
+    search[s] = searched;
+
+
+    path[pc] = s;
+    pc++;
+
+    if (s == d)
+        return 1;
+
+    for (i = 0; i < v[s].c; i+=1)
+    {
+        path_i[pc-1] = i;
+        if (has_path(v[s].e[i], d) == 1) return 1;
+    }
+
+    pc --;
+    return 0;
+}
+
+int has_path_s(int s, int d)
+{
+    SEARCH_RESET();
+    pc = 0;
+    return has_path(s,d);
+}
+
+void clean_edge(int v0, int v1)
+{
+    int i;
+#if DEBUG
+    int j;
+    printf("in %d%c::", v0>>1,v0&1?'h':'w');
+    for (j = 0; j < v[v0].c; j++)
+        if (v[v0].e[j] == -1)
+            printf("x ");
+        else
+            printf("%d%c ", v[v0].e[j]>>1, v[v0].e[j]&1?'h':'w');
+    printf("\n");
+#endif
+
+    for (i = 0; i < v[v0].c; i++)
+        if (v[v0].e[i] == v1)
+        {
+            v[v0].e[i] = -1; break;
+        }
+
+#if DEBUG
+    printf("in %d%c::", v0>>1,v0&1?'h':'w');
+    for (j = 0; j < v[v0].c; j++)
+        if (v[v0].e[j] == -1)
+            printf("x ");
+        else
+            printf("%d%c ", v[v0].e[j]>>1, v[v0].e[j]&1?'h':'w');
+    printf("\n");
+#endif
+}
+
+
+side find_set_side_s(int s)
+{
+    SEARCH_RESET();
+    return find_set_side(s);
+}
+
+side find_set_side(int s)
+{
+    int i;
+    side r = BRIDE_SIDE;
+
+    if (s == -1) return UNKNOWN;
+    if (search[s] == searched) return UNKNOWN;
+     search[s] = searched;
+    if (v[s].tf != UNKNOWN) return v[s].tf;
+
+    for (i = 0; i < v[s].c; i+=1)
+    {
+        r = find_set_side(v[s].e[i]);
+        if (r != UNKNOWN)
+            break;
+    }
+    return r;
+}
+
+int fill(int s, side b)
+{
+    int i;
+
+    if (b == UNKNOWN) return 0;
+    if (s == -1) return 0;
+    if (v[s].tf != UNKNOWN)
+    {
+        b = v[s].tf;
+    }
+    else{
+        v[s].tf = b;
+        v[s^1].tf = (1-b);
+    }
+
+    for (i = 0; i < v[s].c; i+=1)
+    {
+        fill(v[s].e[i], b);
+    }
+    return 0;
+}
+
+void print(int op)
+{
+    int i, j, p = 0;
+
+    j = 0;
+    for (i = 2; i < 2 * n; i++)
+        if (v[i].tf == op)
+        {
+            j+= 1;
+            if (j == n-1)
+            {
+                p = 1;
+                break;
+            }
+            printf("%d%c ", i>>1, i&1 ? 'w' : 'h');
+        }
+
+    if (p)
+        printf("%d%c\n", i >>1, i&1 ? 'w' : 'h');
+    else
+        printf("\n");
+}
+
+int ro_clause[30][2];
+int ro_c = 0;
+
+int main()
+{
+    int ap;
+    int x[2];
+    char y[2];
+    int i, j;
+
+    memset(search, 0, sizeof(int)*60);
+
+    while (scanf("%d %d", &n, &ap) != EOF)
+    {
+        if (n == 0 && ap == 0) break;
+
+        for (i = 0; i < 2*n; i++)
+        {
+            v[i].c = 0;
+            v[i].tf = UNKNOWN;
+        }
+
+        for (i = 0; i < ap; i++)
+        {
+            scanf("%d%c %d%c", x, y, x+1, y+1);
+            x[0] = (x[0] << 1) + (y[0] == 'h');
+            x[1] = (x[1] << 1) + (y[1] == 'h');
+
+            ADD_EDGE(x[0]^1, x[1], 0);
+            ADD_EDGE(x[1]^1, x[0], 1);
+        }
+#if 0
+        for (i = 0; i < 2*n; i++)
+            if (v[i].c != 0)
+            {
+                printf("%d%c::", i>>1,i&1 ? 'h' : 'w');
+                for (j = 0; j < v[i].c; j++)
+                    printf("%d%c ", v[i].e[j]>>1, v[i].e[j]&1 ? 'h' : 'w');
+                printf("\n");
+            }
+#endif
+        v[0].tf = BRIDE_SIDE;
+        v[1].tf = GROOM_SIDE;
+
+        if (has_path_s(0,1) || has_path_s(1,0))
+        {
+            printf("bad luck\n");
+            continue;
+        }
+
+
+        fill(0, BRIDE_SIDE);
+        for (i = 0; i < 2*n; i+=1)
+        {
+#if 0
+            printf("has_path %d%c > %d%c: %d\n", i>>1, i&1 ? 'w' : 'h', i>>1, i&1 ? 'h' : 'w', has_path_s(i, i^1));
+#endif
+            if (has_path_s(i, i^1) == 1)
+            {
+                 fill(i, BRIDE_SIDE);
+#if 0
+                printf("path[%d] = ", pc);
+                for (j = 0; j < pc; j++)
+                    printf("%d%c ", path[j]>>1, path[j]&1 ? 'w' : 'h');
+                printf("\n");
+#endif
+#if 0
+                for (j = 1; j < pc; j++)
+                {
+                    /*try PUT path[n] path[n+1]^1 BRIDE_SIDE*/
+                    if (v[path[j-1]^1].tf == UNKNOWN && v[path[j]].tf == UNKNOWN)
+                    {
+                         printf("path_i = %d\n", path_i[j-1]);
+                         printf("r = %d\n", v[path[j-1]].r[path_i[j-1]]);
+
+                         if (v[path[j-1]].r[path_i[j-1]] == 1)
+                         {
+                            v[path[j-1]^1].tf = v[path[j]].tf = GROOM_SIDE;
+                            v[path[j-1]].tf = v[path[j]^1].tf = BRIDE_SIDE;
+                         }
+                         else
+                         {
+                            v[path[j-1]^1].tf = v[path[j]].tf = BRIDE_SIDE;
+                            v[path[j-1]].tf = v[path[j]^1].tf = GROOM_SIDE;
+                         }
+
+                        /*remove relative clause path[n]->path[n+1]*/
+                        clean_edge(path[j-1], path[j]);
+                        clean_edge(path[j]^1, path[j-1]^1);
+                        break;
+                    }
+                }
+#endif
+            }
+
+            printf("has_path %d%c > %d%c: %d\n", i>>1, i&1 ? 'w' : 'h', i>>1, i&0 ? 'w' : 'h', has_path_s(i, i^1));
+        }
+
+        print(BRIDE_SIDE);
+
+
+        fill(0, BRIDE_SIDE);
+        for (i = 2; i < 2*n; i+=1)
+        {
+            if (!has_path_s(i, i^1))
+            {
+                fill(i, find_set_side_s(i));
+#if 0
+                printf("%d%c::", i>>1, i&1 ? 'w' : 'h');
+                print(BRIDE_SIDE);
+#endif
+            }
+        }
+
+
+        print(BRIDE_SIDE);
+
+    }
+
+
+    return 0;
+}
+
