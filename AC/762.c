@@ -18,6 +18,8 @@ struct V v[MAX];
 #define PARENT(v0)         v[(v0)].p
 
 #define RESET_VISITED() visited_key ++;
+#define SET_VISITED(v0) visited[(v0)] = visited_key;
+#define IS_VISITED(v0)  (visited[(v0)] == visited_key)
 int visited_key = 1;
 int visited[MAX];
 
@@ -36,8 +38,6 @@ int _ST = 0;
 #define ST_TOP()          (_S[_ST-1])
 #define ST_IS_EMPTY()     (_ST == 0)
 
-#define P(v)
-
 int main()
 {
     int N;
@@ -46,7 +46,7 @@ int main()
     int i, j, d, edge, find;
     int f = 0;
 
-    for (i = 0; i < 676; i++)
+    for (i = 0; i < MAX; i++)
         visited[i] = 0;
 
     while (scanf("%d\n", &N) != EOF)
@@ -54,16 +54,12 @@ int main()
         Q_RESET();
         ST_RESET();
         RESET_VISITED();
-
-        for (i = 0; i < 676; i+= 1)
-        {
+        for (i = 0; i < MAX; i+= 1)
             EDGE_NUM(i) = 0;
-        }
 
         for (i = 0; i < N + 1; i += 1)
         {
             fgets(buf, 20, stdin);
-
             id0 = (buf[0]-'A') * 26 + (buf[1]-'A');
             id1 = (buf[3]-'A') * 26 + (buf[4]-'A');
 
@@ -80,11 +76,11 @@ int main()
                 while (!Q_IS_EMPTY())
                 {
                     d = Q_DEQUEUE();
-                    visited[d] = visited_key;
+                    SET_VISITED(d);
                     for (j = 0; j < EDGE_NUM(d); j+= 1)
                     {
                         edge = EDGE(d, j);
-                        if (visited[edge] != visited_key)
+                        if (!IS_VISITED(edge))
                         {
                             PARENT(edge) = d;
                             if (edge == id1)
