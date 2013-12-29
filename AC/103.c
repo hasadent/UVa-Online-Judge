@@ -93,7 +93,7 @@ int main()
             i = prev[i];
         }
         printf("%d\n", ob[i][-1]);
-
     }
+    
     return 0;
 }
