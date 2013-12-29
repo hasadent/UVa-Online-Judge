@@ -29,6 +29,7 @@ struct V V[MAX];
 #define SET_MAP(v0, _i_)    MAP(v0, _i_) = 1;
 #define IS_MAPPED(v0, _i_)  (MAP(v0, _i_) == 1)
 
+
 int _S[MAX];
 int _ST = 0;
 #define ST_PUSH(v0)        _S[_ST++] = (v0);
