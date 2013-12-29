@@ -18,9 +18,9 @@ int bfs_i[MAX];
 int dfs_i[MAX];
 struct T t[MAX];
 
-/* Find index of a value in DFS */
+/* Get index of a value in DFS */
 #define BFSV_DFSI(bfs_v)  dfs_i[(bfs_v)]
-/* Find index of a value in BFS */
+/* Get index of a value in BFS */
 #define DFSV_BFSI(dfs_v)  bfs_i[(dfs_v)]
 #define ADD_NODE(v0, v1)  t[(v0)].s[t[(v0)].c++] = (v1);
 
