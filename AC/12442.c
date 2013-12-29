@@ -1,6 +1,5 @@
 /****
  * 12442 - Forwarding Emails
- *  12898413	12442	Forwarding Emails	Accepted	ANSI C	0.082	2013-12-27 12:51:28
  */
 #include <stdio.h>
 #include <stdlib.h>
