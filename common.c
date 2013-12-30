@@ -14,3 +14,13 @@ int _ST = 0;
 #define ST_POP()        _t = _S[--_ST]
 #define ST_TOP()        _S[_ST-1]
 #define ST_IS_EMPTY()   (_ST == 0)
+
+
+
+#define VISITED_SIZE ??
+int _visited_key = 1;
+int _visited[VISITED_SIZE];
+#define INIT_VISITED(_i_) for (_i_ = 0; _i_ < VISITED_SIZE; _i_+=1) { _visited[_i_] = 0; }
+#define RESET_VISITED()   _visited_key ++;
+#define SET_VISITED(v0)   _visited[(v0)] = _visited_key;
+#define IS_VISITED(v0)    (_visited[(v0)] == _visited_key)
