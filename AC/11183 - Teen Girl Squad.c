@@ -1,5 +1,5 @@
 /****
- * 10791 - Minimum Sum LCM
+ * 11183 - Teen Girl Squad
  */
 #include <stdio.h>
 #include <stdlib.h>
@@ -21,7 +21,6 @@ int _visited[VISITED_SIZE];
 #define RESET_VISITED()   _visited_key ++;
 #define SET_VISITED(v0)   _visited[(v0)] = _visited_key;
 #define IS_VISITED(v0)    (_visited[(v0)] == _visited_key)
-
 
 int N, n, m;
 
@@ -48,10 +47,11 @@ int directed_MST(int root)
         /* STEP 1 */
         for (i = 0; i < m; i++)
         {
-            if (/* no edge to itself */e[i].s != e[i].d
-                /* no edge to root*/   && e[i].d != root
-                /* has the lowest weight in all in-edge */ && e[i].w < in_edge_weight[e[i].d]
-               )
+            /* The edges should be ingored, but condition 1 & 2 are removed in the other place */
+            /* 1. no edge to itself: e[i].s != e[i].d  */
+            /* 2. no edge to root:   e[i].d != root    */
+            /* 3. has the lowest weight in all in-edge */ 
+            if (e[i].w < in_edge_weight[e[i].d])
             {
                 in_edge_src[e[i].d] = e[i].s;
                 in_edge_weight[e[i].d] = e[i].w;
@@ -61,7 +61,7 @@ int directed_MST(int root)
         /* STEP 2 */
         weight = 0;
         has_cycle = 0;
-        memset(v_in_cycle, -1, sizeof(v_in_cycle));
+
 
         for (i = 0; i < n; i++)
         {
@@ -89,17 +89,17 @@ int directed_MST(int root)
             if (j != -1 && IS_VISITED(j))
             {
                 has_cycle = 1;
+                for (k = 0; k < n; k++)
+                    v_in_cycle[k] = -1;
 
-                k = j;
-                do
+                v_in_cycle[j] = j;
+                weight_contracted += in_edge_weight[j];
+                for (k = in_edge_src[j]; k != j; k = in_edge_src[k])
                 {
                     v_in_cycle[k] = j;
                     contracted[k] = 1;
                     weight_contracted += in_edge_weight[k];
-                    k = in_edge_src[k];
                 }
-                while (k != j);
-                contracted[j] = 0;
                 break;
             }
         }
@@ -164,11 +164,7 @@ int main()
             if (e[i].d == 0) {i--; m--;}
         }
 
-
-
         cost = directed_MST(0);
-
-
 
         if (cost == -1)
         {
