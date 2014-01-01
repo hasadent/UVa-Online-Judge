@@ -15,10 +15,9 @@ int T, N, M, E;
 int sc = 0;
 int set[MAX_N];
 #define INIT_SET(_i)           for (_i = 0; _i < N; _i++) { set[_i] = _i; } sc = N-1;
-#define SET(x)                 find_set(x)
+#define SET(x)                 find_set((x))
 #define FAST_UNION(fs_x, fs_y) { set[(fs_x)] = (fs_y); sc --; }
-#define UNION(x, y)            if (SET((x)) != SET((y))) FAST_UNION(x, y)
-
+#define UNION(x, y)            if (SET((x)) != SET((y))) { set[find_set(x)] = find_set(y); sc --; }
 
 struct coordinate
 {
