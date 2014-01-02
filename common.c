@@ -6,6 +6,17 @@ int _QF = 0, _QR = 0;
 #define Q_DEQUEUE()     _Q[_QF++]
 #define Q_IS_EMPTY()    (_QF == _QR)
 
+// simple circular queue
+#define Q_SIZE  3000
+int _Q[Q_SIZE];
+int _QF = 0, _QR = 0;
+#define Q_RESET()       _QF = _QR = 0;
+#define Q_ENQUEUE(v0)   { _Q[_QR] = (v0); _QR = (_QR + 1) % Q_SIZE; }
+#define Q_DEQUEUE(v0)   { v0 = _Q[_QF]; _QF = (_QF + 1 ) % Q_SIZE; }
+#define Q_IS_EMPTY()    (_QF == _QR)
+
+
+
 // simple stack
 int _S[MAX];
 int _ST = 0;
