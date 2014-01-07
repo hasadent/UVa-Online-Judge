@@ -11,7 +11,7 @@ struct v{
 };
 
 struct v v[MAX_N*2];
-int n, n2;
+int n;
 
 
 #define ST_SIZE         MAX_N*2
