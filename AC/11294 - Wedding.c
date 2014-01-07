@@ -1,6 +1,3 @@
-/****
- * 11294 - Wedding
- */
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -14,7 +11,7 @@ struct v{
 };
 
 struct v v[MAX_N*2];
-int n;
+int n, n2;
 
 
 #define ST_SIZE         MAX_N*2
@@ -22,11 +19,9 @@ int _S[ST_SIZE];
 int _ST = 0;
 #define ST_RESET()      _ST = 0;
 #define ST_PUSH(v0)     _S[_ST++] = (v0);
-#define ST_POP(v0)      v0 = _S[--_ST]
-#define ST_TOP()        _S[_ST-1]
+#define ST_POP(v0)      v0 = _S[--_ST];
+#define ST_TOP()        (_S[_ST-1])
 #define ST_IS_EMPTY()   (_ST == 0)
-
-#define DEC(_x)  ((_x)>>1), (((_x)&1) == 1 ? 'h':'w')
 
 int dfs(int x)
 {
@@ -36,8 +31,6 @@ int dfs(int x)
 
     ST_PUSH(x);
     v[x].tf = 1;
-
-    /*printf("dfs = %d%c\n",DEC(x));*/
 
     for (i = 0; i < v[x].c; i+=1)
     {
@@ -71,18 +64,23 @@ int solve()
     }
     return 1;
 }
+
+int ascii[256];
+
 int main()
 {
     int ap;
     int x[2];
     char y[2];
-    int i, j;
+    int i;
+    ascii['w'] = 1;
+    ascii['h'] = 0;
 
     while (scanf("%d %d", &n, &ap) != EOF)
     {
         if (n == 0 && ap == 0) break;
 
-        for (i = 0; i < 2*n; i++)
+        for (i = 0; i < n*2; i++)
         {
             v[i].c = 0;
             v[i].tf = 0;
@@ -91,8 +89,8 @@ int main()
         for (i = 0; i < ap; i++)
         {
             scanf("%d%c %d%c", x, y, x+1, y+1);
-            x[0] = (x[0] << 1) + (y[0] == 'w');
-            x[1] = (x[1] << 1) + (y[1] == 'w');
+            x[0] = (x[0] << 1) + ascii[y[0]];
+            x[1] = (x[1] << 1) + ascii[y[1]];
 
             ADD_EDGE(x[0]^1, x[1]);
             ADD_EDGE(x[1]^1, x[0]);
@@ -101,7 +99,7 @@ int main()
 
         if (solve() == 0)
         {
-            printf("bad luck\n");
+            puts("bad luck");
         }
         else
         {
@@ -114,7 +112,7 @@ int main()
                 else
                     printf("%dh", i/2);
             }
-            printf("\n");
+            puts("");
         }
     }/* while */
 
