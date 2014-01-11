@@ -8,6 +8,7 @@
 
 int N, R;
 int list[MAX_N];
+char yy[MAX_N*3]; /*  */
 
 int main()
 {
@@ -18,8 +19,15 @@ int main()
     //freopen("out.txt", "w", stdout);
 #endif
 
-  while (scanf("%d %d", &N, &R) != EOF)
+  while (scanf("%d %d\n", &N, &R) != EOF)
   {
+    if (R == N)
+    {
+      gets(yy);
+      puts("*");
+      continue;
+    }
+
     for (i = 1; i <= N; i++)
       list[i] = 0;
 
@@ -29,15 +37,10 @@ int main()
       list[j] = 1;
     }
 
-    if (R == N)
-      puts("*");
-    else
-    {
-      for (i = 1; i <=N; i++)
-        if (list[i] == 0)
-          printf("%d ", i);
-      printf("\n");
-    }
+    for (i = 1; i <=N; i++)
+      if (list[i] == 0)
+        printf("%d ", i);
+    printf("\n");
   }
 
 #ifndef ONLINE_JUDGE
