@@ -39,23 +39,22 @@ kingdom::kingdom()
     destroyed = false;
 }
 
-kingdom * current_kingdom;
-
 bool cmp_miny(const point & a, const point& b)
 {
     return (a.y < b.y) || (a.y == b.y && a.x < b.x);
 }
 
+point base_point;
 bool cmp_angle(const point & a, const point & b)
 {
-   return counter_clockwise(current_kingdom->p[0], a, b) > 0;
+   return counter_clockwise(base_point, a, b) > 0;
 }
 
 void kingdom::find_wall()
 {
     swap(p[0], *min_element(p, p + n, cmp_miny));
 
-    current_kingdom = this;
+    base_point = p[0];
     sort(p + 1, p + n, cmp_angle);
     p[n] = p[0];
 
