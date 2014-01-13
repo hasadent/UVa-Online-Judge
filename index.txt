@@ -1,4 +1,4 @@
-Volume-I
+Volume 1
       101 - The Blocks Problem    |  C  | 
       103 - Stacking Boxes        |  C  | Longest increasing subsequence
       107 - The Cat in the Hat    |  C  |
