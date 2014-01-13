@@ -57,7 +57,6 @@ void generate(int *in, int num)
 
 int main()
 {
-
     int i;
     int local[MAX_N];
 
