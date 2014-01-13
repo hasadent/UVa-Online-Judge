@@ -1,0 +1,7 @@
+Volume-I
+      101 - The Blocks Problem    |  C  | 
+      103 - Stacking Boxes        |  C  | Longest increasing subsequence
+      107 - The Cat in the Hat    |  C  |
+      104 - Arbitrage             |  C  | Floyd-Warshall algorithm
+      108 - Maximum Sum           |  C  | Brute-force 
+      147 - Dollars               |  C  | Dynamic programing
