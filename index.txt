@@ -9,9 +9,10 @@ Volume 1
       107 - The Cat in the Hat      |  C  |
       108 - Maximum Sum             |  C  | Brute-force 
       109 - SCUD Busters            | C++ | Graham's scan
-      110 - Meta-Loopless Sorts     |  C  |
+      110 - Meta-Loopless Sorts     |  C  | Permutation
       111 - History Grading         |  C  | Longest increasing subsequence
-      112 - Tree Summing            |  C  | Parsing, Depth-fisrt search	
+      112 - Tree Summing            |  C  | Parsing / Depth-fisrt search	
+      113 - Power of Cryptography   |  C  | 
       127 - "Accordian" Patience    |     | 
       128 - Software CRC            |  C  | 
       147 - Dollars                 |  C  | Dynamic programing
