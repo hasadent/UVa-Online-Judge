@@ -11,4 +11,15 @@ Volume 1
       109 - SCUD Busters            | C++ | Graham's scan
       110 - Meta-Loopless Sorts     |  C  |
       111 - History Grading         |  C  | Longest increasing subsequence
+      127 - "Accordian" Patience    |     | 
+      128 - Software CRC            |  C  | 
       147 - Dollars                 |  C  | Dynamic programing
+
+Volume 2
+      200 - Rare Order              |  C  | Topological sort
+      272 - TeX Quotes              |  C  | 
+      
+Volume 3
+      307 - Sticks                  |  C  | Depth-fisrt search
+
+ 
