@@ -24,10 +24,10 @@ int b;
 #define UP    1
 #define DOWN  3
 
-int next_direction[4] = {   DOWN,  RIGHT,     UP,   LEFT };
-/*                      | RIGHT |    UP |  LEFT |  DOWN  */
-int x_move[4]         = {      1,      0,     -1,      0 };
-int y_move[4]         = {      0,      1,      0,     -1 };
+const int next_direction[4] = {   DOWN,  RIGHT,     UP,   LEFT };
+/*                            | RIGHT |    UP |  LEFT |  DOWN  */
+const int x_move[4]         = {      1,      0,     -1,      0 };
+const int y_move[4]         = {      0,      1,      0,     -1 };
 
 int main()
 {
@@ -37,16 +37,10 @@ int main()
 
     int total_value;
     int value;
+    int x, y, new_x, new_y;
+    int i;
 
-    int i, j;
-    int x, y;
-    int new_x, new_y;
-
-
-    int hit_wall;
-    int bx;
-
-#ifndef ONLINE_JUDGE
+ #ifndef ONLINE_JUDGE
     freopen("in.txt", "r", stdin);
     //freopen("out.txt", "w", stdout);
 #endif
@@ -71,17 +65,19 @@ int main()
             new_x = x + x_move[direction];
             new_y = y + y_move[direction];
 
-            if (new_x == 1 || new_x == m || new_y == 1 || new_y == n)
+            /* hit a wall */
+            if (new_x == m ||  new_y == n || new_x == 1 || new_y == 1)
             {
                 lifetime -= wall_cost;
                 direction = next_direction[direction];
                 continue;
             }
 
-            if ((bx = grid[new_x][new_y]) != 0)
+            /* hit a bumper */
+            if ((i = grid[new_x][new_y]) != 0)
             {
-                lifetime -= bumpers[bx].c;
-                value    += bumpers[bx].v;
+                lifetime -= bumpers[i].c;
+                value    += bumpers[i].v;
                 direction = next_direction[direction];
                 continue;
             }
@@ -92,7 +88,6 @@ int main()
 
         printf("%d\n", value);
         total_value += value;
-
     } /* while scanf */
     printf("%d\n", total_value);
 
