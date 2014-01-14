@@ -12,7 +12,8 @@ Volume 1
       110 - Meta-Loopless Sorts     |  C  | Permutation
       111 - History Grading         |  C  | Longest increasing subsequence
       112 - Tree Summing            |  C  | Parsing / Depth-fisrt search	
-      113 - Power of Cryptography   |  C  | 
+      113 - Power of Cryptography   |  C  |
+      114 - Simulation Wizardry     |  C  | 
       115 - Climbing Trees          |  C  |
       127 - "Accordian" Patience    |     | 
       128 - Software CRC            |  C  | 
