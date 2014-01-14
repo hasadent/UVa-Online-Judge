@@ -11,7 +11,7 @@ Volume 1
       109 - SCUD Busters            | C++ | Graham's scan
       110 - Meta-Loopless Sorts     |  C  |
       111 - History Grading         |  C  | Longest increasing subsequence
-      112 - Tree Summing	      |  C  | Parsering, Depth-fisrt search	
+      112 - Tree Summing            |  C  | Parsing, Depth-fisrt search	
       127 - "Accordian" Patience    |     | 
       128 - Software CRC            |  C  | 
       147 - Dollars                 |  C  | Dynamic programing
