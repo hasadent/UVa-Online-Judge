@@ -40,7 +40,7 @@ int main()
     int x, y, new_x, new_y;
     int i;
 
- #ifndef ONLINE_JUDGE
+#ifndef ONLINE_JUDGE
     freopen("in.txt", "r", stdin);
     //freopen("out.txt", "w", stdout);
 #endif
