@@ -22,6 +22,7 @@
       117 - The Postal Worker Rings Once  |  C  | Dijkstra's algorithm
       127 - "Accordian" Patience          |     | 
       128 - Software CRC                  |  C  | 
+      136 - Ugly Numbers                  |  C  |
       147 - Dollars                       |  C  | Dynamic programing
       193 - Graph Coloring                |  C  | Brute-force
 + Volume 2 ----------------------------------------------------------------------------------
