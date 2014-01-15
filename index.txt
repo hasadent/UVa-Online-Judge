@@ -19,6 +19,7 @@
       114 - Simulation Wizardry           |  C  | 
       115 - Climbing Trees                |  C  |
       116 - Unidirectional TSP            |  C  | Dynamic programing  
+      117 - The Postal Worker Rings Once  |  C  | Dijkstra's algorithm
       127 - "Accordian" Patience          |     | 
       128 - Software CRC                  |  C  | 
       147 - Dollars                       |  C  | Dynamic programing
