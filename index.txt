@@ -1,30 +1,35 @@
 Volume 1
-      100 - The 3n+1 problem        |     | 
-      101 - The Blocks Problem      |  C  | 
-      102 - Ecological Bin Packing  |     |
-      103 - Stacking Boxes          |  C  | Longest increasing subsequence
-      104 - Arbitrage               |  C  | Floyd-Warshall algorithm
-      105 - The Skyline Problem     |     |
-      106 - Fermat vs. Pythagoras   |     |
-      107 - The Cat in the Hat      |  C  |
-      108 - Maximum Sum             |  C  | Brute-force 
-      109 - SCUD Busters            | C++ | Graham's scan
-      110 - Meta-Loopless Sorts     |  C  | Permutation
-      111 - History Grading         |  C  | Longest increasing subsequence
-      112 - Tree Summing            |  C  | Parsing / Depth-fisrt search	
-      113 - Power of Cryptography   |  C  |
-      114 - Simulation Wizardry     |  C  | 
-      115 - Climbing Trees          |  C  |
-      116 - Unidirectional TSP      |  C  | Dynamic programing  
-      127 - "Accordian" Patience    |     | 
-      128 - Software CRC            |  C  | 
-      147 - Dollars                 |  C  | Dynamic programing
-
+      100 - The 3n+1 problem              |     | 
+      101 - The Blocks Problem            |  C  | 
+      102 - Ecological Bin Packing        |     |
+      103 - Stacking Boxes                |  C  | Longest increasing subsequence
+      104 - Arbitrage                     |  C  | Floyd-Warshall algorithm
+      105 - The Skyline Problem           |     |
+      106 - Fermat vs. Pythagoras         |     |
+      107 - The Cat in the Hat            |  C  |
+      108 - Maximum Sum                   |  C  | Brute-force 
+      109 - SCUD Busters                  | C++ | Graham's scan
+      110 - Meta-Loopless Sorts           |  C  | Permutation
+      111 - History Grading               |  C  | Longest increasing subsequence
+      112 - Tree Summing                  |  C  | Parsing / Depth-fisrt search	
+      113 - Power of Cryptography         |  C  |
+      114 - Simulation Wizardry           |  C  | 
+      115 - Climbing Trees                |  C  |
+      116 - Unidirectional TSP            |  C  | Dynamic programing  
+      127 - "Accordian" Patience          |     | 
+      128 - Software CRC                  |  C  | 
+      147 - Dollars                       |  C  | Dynamic programing
+      
 Volume 2
-      200 - Rare Order              |  C  | Topological sort
-      272 - TeX Quotes              |  C  | 
+      200 - Rare Order                    |  C  | Topological sort
+      272 - TeX Quotes                    |  C  | 
       
 Volume 3
-      307 - Sticks                  |  C  | Depth-fisrt search
-
- 
+      307 - Sticks                        |  C  | Depth-fisrt search
+      
+Volume 100
+    10018 - Reverse and Add               |  C  |
+    10034 - Freckles                      |  C  |
+    10035 - Primary Arithmetic            |  C  |
+    10055 - Hashmat the Brave Warrior     |  C  |
+    10062 - Tell me the frequencies!      |  C  |
