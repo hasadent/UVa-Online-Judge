@@ -1,4 +1,6 @@
-Volume 1
+---------------------------------------------------------------------------------------------
+| 
++ Volume 1 ----------------------------------------------------------------------------------
       100 - The 3n+1 problem              |     | 
       101 - The Blocks Problem            |  C  | 
       102 - Ecological Bin Packing        |     |
@@ -20,18 +22,16 @@ Volume 1
       128 - Software CRC                  |  C  | 
       147 - Dollars                       |  C  | Dynamic programing
       193 - Graph Coloring                |  C  | Brute-force
-      
-Volume 2
++ Volume 2 ----------------------------------------------------------------------------------
       200 - Rare Order                    |  C  | Topological sort
       272 - TeX Quotes                    |  C  | 
-      
-Volume 3
++ Volume 3 ----------------------------------------------------------------------------------
       307 - Sticks                        |  C  | Depth-fisrt search
-      
-Volume 100
++ Volume 100 --------------------------------------------------------------------------------
     10018 - Reverse and Add               |  C  |
     10034 - Freckles                      |  C  | Kruskal's algorithm
     10035 - Primary Arithmetic            |  C  |
     10038 - Jolly Jumpers                 |  C  |
     10055 - Hashmat the Brave Warrior     |  C  |
     10062 - Tell me the frequencies!      |  C  |
+---------------------------------------------------------------------------------------------
