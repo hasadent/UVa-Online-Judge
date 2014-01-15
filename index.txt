@@ -29,7 +29,7 @@ Volume 3
       
 Volume 100
     10018 - Reverse and Add               |  C  |
-    10034 - Freckles                      |  C  |
+    10034 - Freckles                      |  C  | Kruskal's algorithm
     10035 - Primary Arithmetic            |  C  |
     10055 - Hashmat the Brave Warrior     |  C  |
     10062 - Tell me the frequencies!      |  C  |
