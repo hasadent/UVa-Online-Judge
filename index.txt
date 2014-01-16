@@ -24,6 +24,7 @@
       128 - Software CRC                  |  C  | 
       136 - Ugly Numbers                  |  C  |
       147 - Dollars                       |  C  | Dynamic programing
+      191 - Intersection                  |  C  | Segments intersect
       193 - Graph Coloring                |  C  | Brute-force
 + Volume 2 ----------------------------------------------------------------------------------
       200 - Rare Order                    |  C  | Topological sort
