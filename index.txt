@@ -23,6 +23,7 @@
       122 - Trees on the level            |  C  |
       127 - "Accordian" Patience          |     | 
       128 - Software CRC                  |  C  | 
+      133 - The Dole Queue                | C++ | Josephus problem
       136 - Ugly Numbers                  |  C  |
       138 - Street Numbers                |  C  |
       145 - Gondwanaland Telecom          |  C  |
