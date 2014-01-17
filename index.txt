@@ -26,6 +26,7 @@
       136 - Ugly Numbers                  |  C  |
       145 - Gondwanaland Telecom          |  C  |
       147 - Dollars                       |  C  | Dynamic programing
+      151 - Power Crisis                  |  C  | Josephus problem
       160 - Factors and Factorials        |  C  |
       190 - Circle Through Three Points   |  C  |
       191 - Intersection                  |  C  | Segments intersect
