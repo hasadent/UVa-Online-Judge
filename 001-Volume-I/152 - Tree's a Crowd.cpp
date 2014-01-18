@@ -7,7 +7,6 @@
 #include <cmath>
 using namespace std;
 #define MAX_TREE 5000
-#define MIN2(_a, _b)   (_a > _b ? _b : _a)
 #define POW2(_a)       ((_a) * (_a))
 
 typedef struct{
@@ -18,7 +17,20 @@ typedef struct{
 
 tree t[MAX_TREE];
 int  n;
-int  histogram[11];
+int  histogram[10];
+
+int  sq[100] = {
+0,1,1,1,2,2,2,2,2,3,
+3,3,3,3,3,3,4,4,4,4, /* 19 */
+4,4,4,4,4,5,5,5,5,5,
+5,5,5,5,5,5,6,6,6,6, /* 39 */
+6,6,6,6,6,6,6,6,6,7,
+7,7,7,7,7,7,7,7,7,7, /* 59 */
+7,7,7,7,8,8,8,8,8,8,
+8,8,8,8,8,8,8,8,8,8, /* 79 */
+8,9,9,9,9,9,9,9,9,9,
+9,9,9,9,9,9,9,9,9,9, /* 99 */
+};
 
 int main()
 {
@@ -57,13 +69,15 @@ int main()
                 else
                 {
                     int ds = POW2(t[i].x - t[j].x) + POW2(t[i].y - t[j].y) + POW2(t[i].z - t[j].z);
-                    t[i].d_square = MIN2(t[i].d_square, ds);
+                    if (ds < t[i].d_square)
+                        t[i].d_square = ds;
                 }
             }
 
-        int d = sqrt(t[i].d_square);
-        if (d < 10)
-            histogram[d] += 1;
+        if (t[i].d_square < 100)
+        {
+            histogram[sq[t[i].d_square]] += 1;
+        }
     }
 
     for (int i = 0; i < 10; i++)
