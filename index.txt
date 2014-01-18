@@ -32,6 +32,7 @@
       151 - Power Crisis                  |  C  | Josephus problem
       156 - Ananagrams                    | C++ |
       160 - Factors and Factorials        |  C  |
+      161 - Traffic Lights                | C++ |
       190 - Circle Through Three Points   |  C  |
       191 - Intersection                  |  C  | Segments intersect
       193 - Graph Coloring                |  C  | Brute-force
