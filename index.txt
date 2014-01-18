@@ -33,6 +33,7 @@
       190 - Circle Through Three Points   |  C  |
       191 - Intersection                  |  C  | Segments intersect
       193 - Graph Coloring                |  C  | Brute-force
+      195 - Anagram                       | C++ | Depth-fisrt search
 + Volume 2 ----------------------------------------------------------------------------------
       200 - Rare Order                    |  C  | Topological sort
       272 - TeX Quotes                    |  C  | 
