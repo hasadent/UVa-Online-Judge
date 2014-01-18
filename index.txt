@@ -30,6 +30,7 @@
       146 - ID Codes                      | C++ | Depth-fisrt search
       147 - Dollars                       |  C  | Dynamic programing
       151 - Power Crisis                  |  C  | Josephus problem
+      152 - Tree's a Crowd                | C++ |
       156 - Ananagrams                    | C++ |
       160 - Factors and Factorials        |  C  |
       161 - Traffic Lights                | C++ |
