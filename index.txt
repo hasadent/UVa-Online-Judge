@@ -26,6 +26,7 @@
       133 - The Dole Queue                | C++ | Josephus problem
       136 - Ugly Numbers                  |  C  |
       138 - Street Numbers                |  C  |
+      139 - Telephone Tangles             | C++ |
       145 - Gondwanaland Telecom          |  C  |
       146 - ID Codes                      | C++ | Depth-fisrt search
       147 - Dollars                       |  C  | Dynamic programing
