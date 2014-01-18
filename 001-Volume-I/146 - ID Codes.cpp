@@ -36,7 +36,6 @@ int dfs(int lv, int from)
 
 int main()
 {
-    int n, i;
     int lv, from;
     bool done;
 
