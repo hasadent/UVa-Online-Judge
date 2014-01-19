@@ -90,7 +90,7 @@
     10287	102	6082622	2007-11-28 11:42:56	0.170
     10313	6	8539504	2011-01-28 12:43:45	0.032
     10364	110	8536094	2011-01-26 19:01:57	0.024
-    10369 Arctic Network                  |   C   | Kruskal's algorithm
+    10369 - Arctic Network                  |   C   | Kruskal's algorithm
     10410 - Tree Reconstruction           |   C   | 
     10432	18	6015634	2007-10-31 01:43:32	0.000
     10487 - Closest Sums                  |   C   |
@@ -99,7 +99,6 @@
     10696 - f91                           |   C   |
     10783 - Odd Sum                       |   C   |
     10878	12	6000607	2007-10-25 02:42:48	0.000
-
     11172 - Relational Operator           |   C   |
     11183 - Teen Girl Squad               |   C   | Chu–Liu/Edmonds' algorithm   
     11294 - Wedding                       |   C   | 2-SAT
