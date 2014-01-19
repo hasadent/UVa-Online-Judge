@@ -50,7 +50,6 @@
       200 - Rare Order                    |   C   | Topological sort
       272 - TeX Quotes                    |   C   | 
 + Volume 3 ----------------------------------------------------------------------------------
-(in directory 'AC')
       307 - Sticks                        |   C   | Depth-fisrt search
 + Volume 4 ----------------------------------------------------------------------------------
       458 - The Decoder                   |       | 
@@ -85,7 +84,6 @@
     10929 - You can say 11                |   C   |
     10949 - Kids in a Grid                |  C++  | Hunt-Szymanski algorithm (LCS)
 + Others ------------------------------------------------------------------------------------
-(in directory 'AC')
       762 - We Ship Cheap                 |   C   | 
      1124 - Celebrity jeopardy            |   C   | 
     10147 - Highways                      |  C++  | Kruskal's algorithm
