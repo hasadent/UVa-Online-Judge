@@ -28,10 +28,10 @@
       136 - Ugly Numbers                  |  C  |
       138 - Street Numbers                |  C  |
       139 - Telephone Tangles             | C++ |
-      148 - Anagram checker               | C++ |
       145 - Gondwanaland Telecom          |  C  |
       146 - ID Codes                      | C++ | Depth-fisrt search
       147 - Dollars                       |  C  | Dynamic programing
+      148 - Anagram checker               | C++ |
       151 - Power Crisis                  |  C  | Josephus problem
       152 - Tree's a Crowd                | C++ |
       156 - Ananagrams                    | C++ |
