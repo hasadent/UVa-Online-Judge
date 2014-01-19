@@ -2,63 +2,63 @@
 + Solved problems
 ---------------------------------------------------------------------------------------------
 + Volume 1 ----------------------------------------------------------------------------------
-      100 - The 3n+1 problem              |     | 
-      101 - The Blocks Problem            |  C  | 
-      102 - Ecological Bin Packing        |     |
-      103 - Stacking Boxes                |  C  | Longest increasing subsequence
-      104 - Arbitrage                     |  C  | Floyd-Warshall algorithm
-      105 - The Skyline Problem           |     |
-      106 - Fermat vs. Pythagoras         |     |
-      107 - The Cat in the Hat            |  C  |
-      108 - Maximum Sum                   |  C  | Brute-force 
-      109 - SCUD Busters                  | C++ | Graham's scan
-      110 - Meta-Loopless Sorts           |  C  | Permutation
-      111 - History Grading               |  C  | Longest increasing subsequence
-      112 - Tree Summing                  |  C  | Parsing / Depth-fisrt search	
-      113 - Power of Cryptography         |  C  |
-      114 - Simulation Wizardry           |  C  | 
-      115 - Climbing Trees                |  C  |
-      116 - Unidirectional TSP            |  C  | Dynamic programing  
-      117 - The Postal Worker Rings Once  |  C  | Dijkstra's algorithm
-      119 - Greedy Gift Givers            | C++ |
-      121 - Pipe Fitters                  | C++ |
-      122 - Trees on the level            |  C  |
-      123 - Searching Quickly             | C++ |
-      127 - "Accordian" Patience          |     | 
-      128 - Software CRC                  |  C  | 
-      133 - The Dole Queue                | C++ | Josephus problem
-      136 - Ugly Numbers                  |  C  |
-      138 - Street Numbers                |  C  |
-      139 - Telephone Tangles             | C++ |
-      144 - Student Grants                | C++ |
-      145 - Gondwanaland Telecom          |  C  |
-      146 - ID Codes                      | C++ | Depth-fisrt search
-      147 - Dollars                       |  C  | Dynamic programing
-      148 - Anagram checker               | C++ | Depth-fisrt search
-      151 - Power Crisis                  |  C  | Josephus problem
-      152 - Tree's a Crowd                | C++ |
-      156 - Ananagrams                    | C++ |
-      160 - Factors and Factorials        |  C  |
-      161 - Traffic Lights                | C++ |
-      170 - Clock Patience                | C++ | 
-      190 - Circle Through Three Points   |  C  |
-      191 - Intersection                  |  C  | Segments intersect
-      193 - Graph Coloring                |  C  | Brute-force
-      195 - Anagram                       | C++ | Depth-fisrt search
+      100 - The 3n+1 problem              |       | 
+      101 - The Blocks Problem            |   C   | 
+      102 - Ecological Bin Packing        |       | 
+      103 - Stacking Boxes                |   C   | Longest increasing subsequence
+      104 - Arbitrage                     |   C   | Floyd-Warshall algorithm
+      105 - The Skyline Problem           |       | 
+      106 - Fermat vs. Pythagoras         |       | 
+      107 - The Cat in the Hat            |   C   |
+      108 - Maximum Sum                   |   C   | Brute-force 
+      109 - SCUD Busters                  |  C++  | Graham's scan
+      110 - Meta-Loopless Sorts           |   C   | Permutation
+      111 - History Grading               |   C   | Longest increasing subsequence
+      112 - Tree Summing                  |   C   | Parsing / Depth-fisrt search	
+      113 - Power of Cryptography         |   C   |
+      114 - Simulation Wizardry           |   C   | 
+      115 - Climbing Trees                |   C   |
+      116 - Unidirectional TSP            |   C   | Dynamic programing  
+      117 - The Postal Worker Rings Once  |   C   | Dijkstra's algorithm
+      119 - Greedy Gift Givers            |  C++  |
+      121 - Pipe Fitters                  |  C++  |
+      122 - Trees on the level            |   C   |
+      123 - Searching Quickly             |  C++  |
+      127 - "Accordian" Patience          |       | 
+      128 - Software CRC                  |   C   | 
+      133 - The Dole Queue                |  C++  | Josephus problem
+      136 - Ugly Numbers                  |   C   |
+      138 - Street Numbers                |   C   |
+      139 - Telephone Tangles             |  C++  |
+      144 - Student Grants                |  C++  |
+      145 - Gondwanaland Telecom          |   C   |
+      146 - ID Codes                      |  C++  | Depth-fisrt search
+      147 - Dollars                       |   C   | Dynamic programing
+      148 - Anagram checker               |  C++  | Depth-fisrt search
+      151 - Power Crisis                  |   C   | Josephus problem
+      152 - Tree's a Crowd                |  C++  |
+      156 - Ananagrams                    |  C++  |
+      160 - Factors and Factorials        |   C   |
+      161 - Traffic Lights                |  C++  |
+      170 - Clock Patience                |  C++  | 
+      190 - Circle Through Three Points   |   C   |
+      191 - Intersection                  |   C   | Segments intersect
+      193 - Graph Coloring                |   C   | Brute-force
+      195 - Anagram                       |  C++  | Depth-fisrt search
 + Volume 2 ----------------------------------------------------------------------------------
-      200 - Rare Order                    |  C  | Topological sort
-      272 - TeX Quotes                    |  C  | 
+      200 - Rare Order                    |   C   | Topological sort
+      272 - TeX Quotes                    |   C   | 
 + Volume 3 ----------------------------------------------------------------------------------
-      307 - Sticks                        |  C  | Depth-fisrt search
+      307 - Sticks                        |   C   | Depth-fisrt search
 + Volume 100 --------------------------------------------------------------------------------
-    10018 - Reverse and Add               |  C  |
-    10034 - Freckles                      |  C  | Kruskal's algorithm
-    10035 - Primary Arithmetic            |  C  |
-    10038 - Jolly Jumpers                 |  C  |
-    10055 - Hashmat the Brave Warrior     |  C  |
-    10062 - Tell me the frequencies!      |  C  |
+    10018 - Reverse and Add               |   C   |
+    10034 - Freckles                      |   C   | Kruskal's algorithm
+    10035 - Primary Arithmetic            |   C   |
+    10038 - Jolly Jumpers                 |   C   |
+    10055 - Hashmat the Brave Warrior     |   C   |
+    10062 - Tell me the frequencies!      |   C   |
 + Others ------------------------------------------------------------------------------------
-    11172 - Relational Operator           |  C  |
-    11498 - Division of Nlogonia          |  C  |
-    11727 - Cost Cutting                  |  C  |
+    11172 - Relational Operator           |   C   |
+    11498 - Division of Nlogonia          |   C   |
+    11727 - Cost Cutting                  |   C   |
 ---------------------------------------------------------------------------------------------
