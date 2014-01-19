@@ -52,15 +52,32 @@
 + Volume 3 ----------------------------------------------------------------------------------
       307 - Sticks                        |   C   | Depth-fisrt search
 + Volume 100 --------------------------------------------------------------------------------
-    10018 - Reverse and Add               |   C   |
+    10018 - Reverse and Add               |   C   | 
     10034 - Freckles                      |   C   | Kruskal's algorithm
     10035 - Primary Arithmetic            |   C   |
     10038 - Jolly Jumpers                 |   C   |
     10055 - Hashmat the Brave Warrior     |   C   |
     10062 - Tell me the frequencies!      |   C   |
 + Others ------------------------------------------------------------------------------------
-     1124 - Celebrity jeopardy            |   C   |
+      307 - Sticks                        |   C   | Depth-fisrt search
+      762 - We Ship Cheap                 |   C   | 
+     1124 - Celebrity jeopardy            |   C   | 
+    10147 - Highways                      |  C++  | Kruskal's algorithm
+    10369 Arctic Network                  |   C   | Kruskal's algorithm
+    10410 - Tree Reconstruction           |   C   | 
+    10487 - Closest Sums                  |   C   |
+    10550 - Combination Lock              |   C   |
+    10696 - f91                           |   C   |
+    10783 - Odd Sum                       |   C   |
     11172 - Relational Operator           |   C   |
+    11183 - Teen Girl Squad               |   C   | Chu–Liu/Edmonds' algorithm   
+    11294 - Wedding                       |   C   | 2-SAT
     11498 - Division of Nlogonia          |   C   |
     11727 - Cost Cutting                  |   C   |
+    11946 - Code Number                   |   C   |
+    12160 - Unlock the Lock               |  CPP  |
+    12442 - Forwarding Emails             |   C   |
+    12650 - Dangerous Dive                |   C   |
+    
+
 ---------------------------------------------------------------------------------------------
