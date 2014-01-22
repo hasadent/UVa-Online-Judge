@@ -38,6 +38,7 @@
       148 - Anagram checker               |  C++  | Depth-fisrt search
       151 - Power Crisis                  |   C   | Josephus problem
       152 - Tree's a Crowd                |  C++  |
+      153 - Permalex                      |  C++  |
       156 - Ananagrams                    |  C++  |
       160 - Factors and Factorials        |   C   |
       161 - Traffic Lights                |  C++  |
