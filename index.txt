@@ -22,6 +22,7 @@
       117 - The Postal Worker Rings Once  |   C   | Dijkstra's algorithm
       118 - Mutant Flatworld Explorers    |  C++  |
       119 - Greedy Gift Givers            |  C++  |
+      120 - Stacks of Flapjacks           |  C++  |
       121 - Pipe Fitters                  |  C++  |
       122 - Trees on the level            |   C   |
       123 - Searching Quickly             |  C++  |
