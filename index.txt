@@ -97,6 +97,7 @@
     10161 - Ant on a Chessboard           |       | 
     10287 - Gifts in a Hexagonal Box      |       | 
     10313 - Pay the Price                 |       | 
+    10327 - Flip Sort                     |  C++  | *
     10364 - Square                        |       | 
     10369 - Arctic Network                |   C   | Kruskal's algorithm
     10410 - Tree Reconstruction           |   C   | 
@@ -115,7 +116,7 @@
     11498 - Division of Nlogonia          |   C   |
     11727 - Cost Cutting                  |   C   |
     11946 - Code Number                   |   C   |
-    12160 - Unlock the Lock               |  CPP  |
+    12160 - Unlock the Lock               |  C++  |
     12442 - Forwarding Emails             |   C   |
     12650 - Dangerous Dive                |   C   |
 ---------------------------------------------------------------------------------------------
