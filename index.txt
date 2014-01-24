@@ -102,6 +102,7 @@
     10364 - Square                        |       | 
     10369 - Arctic Network                |   C   | Kruskal's algorithm
     10410 - Tree Reconstruction           |   C   | 
+    10420 - List of Conquests             |  C++  |
     10432 - Polygon Inside a Circle       |       | 
     10433 - Automorphic Numbers           |       | 
     10487 - Closest Sums                  |   C   |
