@@ -26,6 +26,7 @@
       121 - Pipe Fitters                  |  C++  |
       122 - Trees on the level            |   C   |
       123 - Searching Quickly             |  C++  |
+      124 - Following Orders              |  C++  |
       127 - "Accordian" Patience          |       | 
       128 - Software CRC                  |   C   | 
       133 - The Dole Queue                |  C++  | Josephus problem
