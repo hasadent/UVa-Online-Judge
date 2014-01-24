@@ -55,6 +55,7 @@
       195 - Anagram                       |  C++  | Depth-fisrt search
 + Volume 2 ----------------------------------------------------------------------------------
       200 - Rare Order                    |   C   | Topological sort
+      256 - Quirksome Squares             |  C++  | 
       272 - TeX Quotes                    |   C   | 
 + Volume 3 ----------------------------------------------------------------------------------
       307 - Sticks                        |   C   | Depth-fisrt search
