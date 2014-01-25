@@ -60,6 +60,7 @@
 + Volume 3 ----------------------------------------------------------------------------------
       307 - Sticks                        |   C   | Depth-fisrt search
 + Volume 4 ----------------------------------------------------------------------------------
+      401 - Palindromes                   |  C++  |
       458 - The Decoder                   |       | 
       476 - Points in Figures: Rectangles |       |
       477 - Points in Figures: Rectangles |       |
