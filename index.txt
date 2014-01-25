@@ -111,6 +111,7 @@
     10327 - Flip Sort                     |  C++  | *
     10364 - Square                        |       | 
     10369 - Arctic Network                |   C   | Kruskal's algorithm
+    10370 - Above Average                 |  C++  |
     10410 - Tree Reconstruction           |   C   | 
     10420 - List of Conquests             |  C++  |
     10432 - Polygon Inside a Circle       |       | 
