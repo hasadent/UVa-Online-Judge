@@ -57,6 +57,7 @@
       200 - Rare Order                    |   C   | Topological sort
       256 - Quirksome Squares             |  C++  | 
       272 - TeX Quotes                    |   C   | 
+      299 - Train Swapping                |  C++  |
 + Volume 3 ----------------------------------------------------------------------------------
       307 - Sticks                        |   C   | Depth-fisrt search
 + Volume 4 ----------------------------------------------------------------------------------
@@ -91,6 +92,7 @@
     10062 - Tell me the frequencies!      |   C   |
     10071 - Back to High School Physics   |   C   |
     10079 - Pizza Cutting                 |  C++  |
+    10082 - WERTYU                        |  C++  |
 + Volume 109 --------------------------------------------------------------------------------
     10918 - Tri Tiling                    |       | 
     10922 - 2 the 9s                      |       | 
