@@ -86,6 +86,7 @@
     10055 - Hashmat the Brave Warrior     |   C   |
     10062 - Tell me the frequencies!      |   C   |
     10071 - Back to High School Physics   |   C   |
+    10079 - Pizza Cutting                 |  C++  |
 + Volume 109 --------------------------------------------------------------------------------
     10918 - Tri Tiling                    |       | 
     10922 - 2 the 9s                      |       | 
@@ -96,6 +97,7 @@
      1124 - Celebrity jeopardy            |   C   | 
     10147 - Highways                      |  C++  | Kruskal's algorithm
     10161 - Ant on a Chessboard           |       | 
+    10165 - Stone Game                    |  C++  | Nim
     10287 - Gifts in a Hexagonal Box      |       | 
     10313 - Pay the Price                 |       | 
     10327 - Flip Sort                     |  C++  | *
