@@ -113,6 +113,7 @@
     10300 - Ecological Premium            |  C++  |
     10313 - Pay the Price                 |       | 
     10327 - Flip Sort                     |  C++  | *
+    10340 - All in All                    |  C++  |
     10364 - Square                        |       | 
     10369 - Arctic Network                |   C   | Kruskal's algorithm
     10370 - Above Average                 |  C++  |
