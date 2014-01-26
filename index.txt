@@ -68,6 +68,7 @@
             and Circles                   |       |
       478 - Points in Figures: Rectangles |       |
             and Circles, and Triangles    |       |
+      483 - Word Scramble                 |  C++  |
       488 - Triangle Wave                 |       | 
       494 - Kindergarten Counting Game    |       |
 + Volume 5 ----------------------------------------------------------------------------------
