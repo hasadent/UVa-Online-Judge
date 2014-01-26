@@ -62,6 +62,7 @@
       307 - Sticks                        |   C   | Depth-fisrt search
 + Volume 4 ----------------------------------------------------------------------------------
       401 - Palindromes                   |  C++  |
+      424 - Integer Inquiry               |  C++  |
       458 - The Decoder                   |       | 
       476 - Points in Figures: Rectangles |       |
       477 - Points in Figures: Rectangles |       |
@@ -109,6 +110,7 @@
     10147 - Highways                      |  C++  | Kruskal's algorithm
     10161 - Ant on a Chessboard           |       | 
     10165 - Stone Game                    |  C++  | Nim
+    10189 - Minesweeper                   |  C++  |
     10287 - Gifts in a Hexagonal Box      |       | 
     10300 - Ecological Premium            |  C++  |
     10313 - Pay the Price                 |       | 
