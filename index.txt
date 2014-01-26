@@ -103,6 +103,7 @@
 + Others ------------------------------------------------------------------------------------
       762 - We Ship Cheap                 |   C   | 
      1124 - Celebrity jeopardy            |   C   | 
+    10106 - Product                       |  C++  |
     10110 - Light, more light             |  C++  |
     10147 - Highways                      |  C++  | Kruskal's algorithm
     10161 - Ant on a Chessboard           |       | 
