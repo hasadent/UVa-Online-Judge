@@ -92,6 +92,7 @@
     10034 - Freckles                      |   C   | Kruskal's algorithm
     10035 - Primary Arithmetic            |   C   |
     10038 - Jolly Jumpers                 |   C   |
+    10041 - Vito's family                 |  C++  |
     10055 - Hashmat the Brave Warrior     |   C   |
     10062 - Tell me the frequencies!      |   C   |
     10071 - Back to High School Physics   |   C   |
