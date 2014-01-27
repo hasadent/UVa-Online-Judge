@@ -60,6 +60,9 @@
       299 - Train Swapping                |  C++  |
 + Volume 3 ----------------------------------------------------------------------------------
       307 - Sticks                        |   C   | Depth-fisrt search
+      344 - Roman Digititis               |  C++  |
+      374 - Big Mod                       |  C++  |
+      382 - Perfection                    |  C++  |
 + Volume 4 ----------------------------------------------------------------------------------
       401 - Palindromes                   |  C++  |
       424 - Integer Inquiry               |  C++  |
@@ -104,6 +107,8 @@
     10929 - You can say 11                |   C   |
     10949 - Kids in a Grid                |  C++  | Hunt-Szymanski algorithm (LCS)
 + Others ------------------------------------------------------------------------------------
+      623 - 500!                          |  C++  | (big number)
+      653 - Gizilch                       |  C++  | Depth-fisrt search
       762 - We Ship Cheap                 |   C   | 
      1124 - Celebrity jeopardy            |   C   | 
     10106 - Product                       |  C++  |
@@ -130,11 +135,14 @@
     10696 - f91                           |   C   |
     10783 - Odd Sum                       |   C   |
     10878 - Decode the Tape               |       | 
+    10970 - Big Chocolate                 |  C++  |
     11045 - My T-Shirt Suits Me           |       | 
     11172 - Relational Operator           |   C   |
     11183 - Teen Girl Squad               |   C   | Chu–Liu/Edmonds' algorithm   
     11294 - Wedding                       |   C   | 2-SAT
+    11462 - Age Sort                      |  C++  |
     11498 - Division of Nlogonia          |   C   |
+    11636 - Hello World!                  |  C++  |
     11727 - Cost Cutting                  |   C   |
     11946 - Code Number                   |   C   |
     12160 - Unlock the Lock               |  C++  |
