@@ -87,6 +87,7 @@
       587 - There`s treasure everywhere!  |       |
       591 - Box of Bricks                 |       | 
 + Volume 9 ----------------------------------------------------------------------------------
+      900 - Brick Wall Patterns           |  C++  |
       913 - Joana and the Odd Numbers     |   C   |
 + Volume 100 --------------------------------------------------------------------------------
     10004 - Bicoloring                    |  C++  |
