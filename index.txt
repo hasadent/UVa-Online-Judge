@@ -107,7 +107,9 @@
     10918 - Tri Tiling                    |       | 
     10922 - 2 the 9s                      |       | 
     10929 - You can say 11                |   C   |
+    10940 - Throwing Cards Away II        |  C++  |
     10949 - Kids in a Grid                |  C++  | Hunt-Szymanski algorithm (LCS)
+    10970 - Big Chocolate                 |  C++  |
 + Others ------------------------------------------------------------------------------------
       623 - 500!                          |  C++  | (big number)
       653 - Gizilch                       |  C++  | Depth-fisrt search
@@ -140,7 +142,6 @@
     10696 - f91                           |   C   |
     10783 - Odd Sum                       |   C   |
     10878 - Decode the Tape               |       | 
-    10970 - Big Chocolate                 |  C++  |
     11045 - My T-Shirt Suits Me           |       | 
     11172 - Relational Operator           |   C   |
     11183 - Teen Girl Squad               |   C   | Chu–Liu/Edmonds' algorithm   
