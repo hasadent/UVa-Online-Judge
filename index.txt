@@ -65,7 +65,9 @@
       382 - Perfection                    |  C++  |
 + Volume 4 ----------------------------------------------------------------------------------
       401 - Palindromes                   |  C++  |
+      408 - Uniform Generator             |  C++  | GCD
       424 - Integer Inquiry               |  C++  |
+      440 - Eeny Meeny Moo                |  C++  | Josephus problem
       458 - The Decoder                   |       | 
       476 - Points in Figures: Rectangles |       |
       477 - Points in Figures: Rectangles |       |
@@ -113,6 +115,8 @@
      1124 - Celebrity jeopardy            |   C   | 
     10106 - Product                       |  C++  |
     10110 - Light, more light             |  C++  |
+    10127 - Ones                          |  C++  |
+    10137 - The Trip                      |  C++  |
     10147 - Highways                      |  C++  | Kruskal's algorithm
     10161 - Ant on a Chessboard           |       | 
     10165 - Stone Game                    |  C++  | Nim
@@ -122,6 +126,7 @@
     10313 - Pay the Price                 |       | 
     10327 - Flip Sort                     |  C++  | *
     10340 - All in All                    |  C++  |
+    10346 - Peter's Smokes                |  C++  |
     10364 - Square                        |       | 
     10369 - Arctic Network                |   C   | Kruskal's algorithm
     10370 - Above Average                 |  C++  |
@@ -144,6 +149,7 @@
     11498 - Division of Nlogonia          |   C   |
     11636 - Hello World!                  |  C++  |
     11727 - Cost Cutting                  |   C   |
+    11854 - Egypt                         |  C++  |
     11946 - Code Number                   |   C   |
     12160 - Unlock the Lock               |  C++  |
     12442 - Forwarding Emails             |   C   |
