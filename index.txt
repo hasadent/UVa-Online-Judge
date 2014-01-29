@@ -115,8 +115,9 @@
     10970 - Big Chocolate                 |  C++  |
 + Others ------------------------------------------------------------------------------------
       623 - 500!                          |  C++  | (big number)
-      673 - Parentheses Balance           |  C++  |
       653 - Gizilch                       |  C++  | Depth-fisrt search
+      673 - Parentheses Balance           |  C++  |
+      674 - Coin Change                   |  C++  |
       762 - We Ship Cheap                 |   C   | 
      1124 - Celebrity jeopardy            |   C   | 
     10106 - Product                       |  C++  |
