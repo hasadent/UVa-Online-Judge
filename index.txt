@@ -91,6 +91,11 @@
       579 - Clock Hands                   |       | 
       587 - There`s treasure everywhere!  |       |
       591 - Box of Bricks                 |       | 
++ Volume 6 ----------------------------------------------------------------------------------
+      623 - 500!                          |  C++  | (big number)
+      653 - Gizilch                       |  C++  | Depth-fisrt search
+      673 - Parentheses Balance           |  C++  |
+      674 - Coin Change                   |  C++  |      
 + Volume 9 ----------------------------------------------------------------------------------
       900 - Brick Wall Patterns           |  C++  |
       913 - Joana and the Odd Numbers     |   C   |
@@ -111,20 +116,7 @@
     10071 - Back to High School Physics   |   C   |
     10079 - Pizza Cutting                 |  C++  |
     10082 - WERTYU                        |  C++  |
-+ Volume 109 --------------------------------------------------------------------------------
-    10918 - Tri Tiling                    |       | 
-    10922 - 2 the 9s                      |       | 
-    10929 - You can say 11                |   C   |
-    10940 - Throwing Cards Away II        |  C++  |
-    10949 - Kids in a Grid                |  C++  | Hunt-Szymanski algorithm (LCS)
-    10970 - Big Chocolate                 |  C++  |
-+ Others ------------------------------------------------------------------------------------
-      623 - 500!                          |  C++  | (big number)
-      653 - Gizilch                       |  C++  | Depth-fisrt search
-      673 - Parentheses Balance           |  C++  |
-      674 - Coin Change                   |  C++  |
-      762 - We Ship Cheap                 |   C   | 
-     1124 - Celebrity jeopardy            |   C   | 
++ Volume 101 --------------------------------------------------------------------------------
     10106 - Product                       |  C++  |
     10107 - What is the Median            |  C++  |
     10110 - Light, more light             |  C++  |
@@ -134,7 +126,7 @@
     10161 - Ant on a Chessboard           |       | 
     10165 - Stone Game                    |  C++  | Nim
     10189 - Minesweeper                   |  C++  |
-    10287 - Gifts in a Hexagonal Box      |       | 
++ Volume 103 --------------------------------------------------------------------------------
     10300 - Ecological Premium            |  C++  |
     10313 - Pay the Price                 |       | 
     10327 - Flip Sort                     |  C++  | *
@@ -143,6 +135,17 @@
     10364 - Square                        |       | 
     10369 - Arctic Network                |   C   | Kruskal's algorithm
     10370 - Above Average                 |  C++  |
++ Volume 109 --------------------------------------------------------------------------------
+    10918 - Tri Tiling                    |       | 
+    10922 - 2 the 9s                      |       | 
+    10929 - You can say 11                |   C   |
+    10940 - Throwing Cards Away II        |  C++  |
+    10949 - Kids in a Grid                |  C++  | Hunt-Szymanski algorithm (LCS)
+    10970 - Big Chocolate                 |  C++  |
++ Others ------------------------------------------------------------------------------------
+      762 - We Ship Cheap                 |   C   | 
+     1124 - Celebrity jeopardy            |   C   | 
+    10287 - Gifts in a Hexagonal Box      |       | 
     10410 - Tree Reconstruction           |   C   | 
     10420 - List of Conquests             |  C++  |
     10432 - Polygon Inside a Circle       |       | 
