@@ -61,6 +61,7 @@
 + Volume 3 ----------------------------------------------------------------------------------
       307 - Sticks                        |   C   | Depth-fisrt search
       344 - Roman Digititis               |  C++  |
+      369 - Combinations                  |  C++  |
       374 - Big Mod                       |  C++  |
       382 - Perfection                    |  C++  |
 + Volume 4 ----------------------------------------------------------------------------------
@@ -78,6 +79,7 @@
       488 - Triangle Wave                 |       | 
       494 - Kindergarten Counting Game    |       |
 + Volume 5 ----------------------------------------------------------------------------------
+      530 - Binomial Showdown             |  C++  |
       536 - Tree Recovery                 |   C   |
       557 - Burger                        |   C   |
       565 - Pizza Anyone                  |   C   |
@@ -113,6 +115,7 @@
     10970 - Big Chocolate                 |  C++  |
 + Others ------------------------------------------------------------------------------------
       623 - 500!                          |  C++  | (big number)
+      673 - Parentheses Balance           |  C++  |
       653 - Gizilch                       |  C++  | Depth-fisrt search
       762 - We Ship Cheap                 |   C   | 
      1124 - Celebrity jeopardy            |   C   | 
@@ -142,6 +145,7 @@
     10550 - Combination Lock              |   C   |
     10696 - f91                           |   C   |
     10783 - Odd Sum                       |   C   |
+    10812 - Beat the Spread!              |  C++  |
     10878 - Decode the Tape               |       | 
     11045 - My T-Shirt Suits Me           |       | 
     11172 - Relational Operator           |   C   |
