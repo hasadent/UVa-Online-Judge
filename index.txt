@@ -77,10 +77,13 @@
             and Circles, and Triangles    |       |
       483 - Word Scramble                 |  C++  |
       488 - Triangle Wave                 |       | 
+      495 - Fibonacci Freeze              |  C++  |
       494 - Kindergarten Counting Game    |       |
+      499 - What's The Frequency, Kenneth |  C++  |
 + Volume 5 ----------------------------------------------------------------------------------
       530 - Binomial Showdown             |  C++  |
       536 - Tree Recovery                 |   C   |
+      541 - Error Correction              |  C++  |
       557 - Burger                        |   C   |
       565 - Pizza Anyone                  |   C   |
       571 - Jugs                          |       |
@@ -94,6 +97,7 @@
 + Volume 100 --------------------------------------------------------------------------------
     10004 - Bicoloring                    |  C++  |
     10008 - What's Cryptanalysis?         |  C++  |
+    10013 - Super long sums               |  C++  |
     10017 - The Never Ending Towers of    |  C++  |
             Hanoi                         |       |
     10018 - Reverse and Add               |   C   | 
@@ -122,6 +126,7 @@
       762 - We Ship Cheap                 |   C   | 
      1124 - Celebrity jeopardy            |   C   | 
     10106 - Product                       |  C++  |
+    10107 - What is the Median            |  C++  |
     10110 - Light, more light             |  C++  |
     10127 - Ones                          |  C++  |
     10137 - The Trip                      |  C++  |
