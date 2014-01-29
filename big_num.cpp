@@ -12,8 +12,7 @@ public:
 };
 
 big_num::big_num()
-{
-}
+{}
 
 void big_num::operator=(const int i)
 {
@@ -53,6 +52,14 @@ big_num & big_num::operator+=(big_num const &rhs)
         num[i-1] += num[i] / 10000;
         num[i]   =  num[i] % 10000;
     }
+
+    return *this;
+}
+
+big_num & big_num::operator=(big_num const &rhs)
+{
+    for (int i = 0; i < BIG_NUM_SIZE; i++)
+        num[i] += rhs.num[i];
 
     return *this;
 }
