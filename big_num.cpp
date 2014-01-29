@@ -1,12 +1,8 @@
-#define BIG_NUM_SIZE (1000000/4+1)
-
 class big_num
 {
+    static const int BIG_NUM_SIZE = (1000000/4+1);
     int num[BIG_NUM_SIZE];
 public:
-
-
-
     big_num();
     void operator= (const int);
     void operator= (const char *);
@@ -17,7 +13,6 @@ public:
 
 big_num::big_num()
 {
-
 }
 
 void big_num::operator=(const int i)
@@ -80,14 +75,12 @@ big_num big_num::operator*(const int n)
     return r;
 }
 
-
-
 ostream& operator<<(ostream& os, const big_num& bn)
 {
     int i = 0;
-    while (i < BIG_NUM_SIZE && bn.num[i] == 0) i++;
+    while (i < big_num::BIG_NUM_SIZE && bn.num[i] == 0) i++;
 
-    if (i == BIG_NUM_SIZE)
+    if (i == big_num::BIG_NUM_SIZE)
     {
         os << "0";
     }
@@ -97,9 +90,9 @@ ostream& operator<<(ostream& os, const big_num& bn)
         i++;
     }
 
-    if (i < BIG_NUM_SIZE)
+    if (i < big_num::BIG_NUM_SIZE)
     {
-        for (; i < BIG_NUM_SIZE; i++)
+        for (; i < big_num::BIG_NUM_SIZE; i++)
             os << setfill('0') << setw(4) << bn.num[i];
     }
 
