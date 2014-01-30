@@ -70,6 +70,7 @@
       408 - Uniform Generator             |  C++  | GCD
       424 - Integer Inquiry               |  C++  |
       440 - Eeny Meeny Moo                |  C++  | Josephus problem
+      445 - Marvelous Mazes               |  C++  |
       458 - The Decoder                   |       | 
       476 - Points in Figures: Rectangles |       |
       477 - Points in Figures: Rectangles |       |
