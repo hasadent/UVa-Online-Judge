@@ -56,6 +56,7 @@
 + Volume 2 ----------------------------------------------------------------------------------
       200 - Rare Order                    |   C   | Topological sort
       256 - Quirksome Squares             |  C++  | 
+      264 - Count on Cantor               |  C++  |
       272 - TeX Quotes                    |   C   | 
       299 - Train Swapping                |  C++  |
 + Volume 3 ----------------------------------------------------------------------------------
@@ -84,6 +85,7 @@
       530 - Binomial Showdown             |  C++  |
       536 - Tree Recovery                 |   C   |
       541 - Error Correction              |  C++  |
+      543 - Goldbach's Conjecture         |  C++  |
       557 - Burger                        |   C   |
       565 - Pizza Anyone                  |   C   |
       571 - Jugs                          |       |
@@ -137,6 +139,7 @@
     10370 - Above Average                 |  C++  |
 + Volume 109 --------------------------------------------------------------------------------
     10918 - Tri Tiling                    |       | 
+    10921 - Find the Telephone            |  C++  |
     10922 - 2 the 9s                      |       | 
     10929 - You can say 11                |   C   |
     10940 - Throwing Cards Away II        |  C++  |
