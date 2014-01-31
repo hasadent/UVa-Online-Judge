@@ -84,6 +84,7 @@
       494 - Kindergarten Counting Game    |       |
       499 - What's The Frequency, Kenneth |  C++  |
 + Volume 5 ----------------------------------------------------------------------------------
+      514 - Rails                         |  C++  |
       530 - Binomial Showdown             |  C++  |
       536 - Tree Recovery                 |   C   |
       541 - Error Correction              |  C++  |
