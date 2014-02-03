@@ -146,6 +146,14 @@
     10364 - Square                        |       | 
     10369 - Arctic Network                |   C   | Kruskal's algorithm
     10370 - Above Average                 |  C++  |
++ Volume 104 --------------------------------------------------------------------------------
+    10405 - Longest Common Subsequence    |  C++  | Longest common subsequence 
+    10410 - Tree Reconstruction           |   C   | 
+    10420 - List of Conquests             |  C++  |
+    10432 - Polygon Inside a Circle       |       | 
+    10433 - Automorphic Numbers           |       | 
+    10469 - To Carry or not to Carry      |  C++  |
+    10487 - Closest Sums                  |   C   |
 + Volume 109 --------------------------------------------------------------------------------
     10918 - Tri Tiling                    |       | 
     10921 - Find the Telephone            |  C++  |
@@ -161,13 +169,6 @@
       847 - A Multiplication Game         |  C++  | 
      1124 - Celebrity jeopardy            |   C   | 
     10287 - Gifts in a Hexagonal Box      |       | 
-    10405 - Longest Common Subsequence    |  C++  | Longest common subsequence 
-    10410 - Tree Reconstruction           |   C   | 
-    10420 - List of Conquests             |  C++  |
-    10432 - Polygon Inside a Circle       |       | 
-    10433 - Automorphic Numbers           |       | 
-    10469 - To Carry or not to Carry      |  C++  |
-    10487 - Closest Sums                  |   C   |
     10515 - Power Et Al.                  |       | 
     10550 - Combination Lock              |   C   |
     10696 - f91                           |   C   |
