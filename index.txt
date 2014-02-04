@@ -61,6 +61,7 @@
       294 - Divisors                      |  C++  |
       299 - Train Swapping                |  C++  |
 + Volume 3 ----------------------------------------------------------------------------------
+      305 - Joseph                        |  C++  |
       307 - Sticks                        |   C   | Depth-fisrt search
       344 - Roman Digititis               |  C++  |
       369 - Combinations                  |  C++  |
