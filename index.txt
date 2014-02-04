@@ -58,6 +58,7 @@
       256 - Quirksome Squares             |  C++  | 
       264 - Count on Cantor               |  C++  |
       272 - TeX Quotes                    |   C   | 
+      294 - Divisors                      |  C++  |
       299 - Train Swapping                |  C++  |
 + Volume 3 ----------------------------------------------------------------------------------
       307 - Sticks                        |   C   | Depth-fisrt search
@@ -70,6 +71,7 @@
       406 - Prime Cuts                    |  C++  | 
       408 - Uniform Generator             |  C++  | GCD
       412 - Pi                            |  C++  |
+      414 - Machined Surfaces             | C++11 |
       417 - Word Index                    |  C++  |
       424 - Integer Inquiry               |  C++  |
       440 - Eeny Meeny Moo                |  C++  | Josephus problem
@@ -94,17 +96,22 @@
       543 - Goldbach's Conjecture         |  C++  |
       557 - Burger                        |   C   |
       565 - Pizza Anyone                  |   C   |
+      568 - Just the Facts                |  C++  |
       571 - Jugs                          |       |
       572 - Oil Deposits                  |  C++  |
       575 - Skew Binary                   |  C++  |
       579 - Clock Hands                   |       | 
+      583 - Prime Factors                 |  C++  |
       587 - There`s treasure everywhere!  |       |
       591 - Box of Bricks                 |       | 
 + Volume 6 ----------------------------------------------------------------------------------
+      612 - DNA Sorting                   |  C++  |
       623 - 500!                          |  C++  | (big number)
+      624 - CD                            | C++11 |
       653 - Gizilch                       |  C++  | Depth-fisrt search
       673 - Parentheses Balance           |  C++  |
       674 - Coin Change                   |  C++  |      
+      686 - Goldbach's Conjecture (II)    |  C++  |
       694 - The Collatz Sequence          |  C++  | 
 + Volume 9 ----------------------------------------------------------------------------------
       900 - Brick Wall Patterns           |  C++  |
@@ -112,11 +119,13 @@
 + Volume 100 --------------------------------------------------------------------------------
     10003 - Cutting Sticks                |  C++  | Dynamic programming
     10004 - Bicoloring                    |  C++  |
+    10006 - Carmichael Numbers            |  C++  |
     10008 - What's Cryptanalysis?         |  C++  |
     10013 - Super long sums               |  C++  |
     10017 - The Never Ending Towers of    |  C++  |
             Hanoi                         |       |
     10018 - Reverse and Add               |   C   | 
+    10019 - Funny Encryption Method       |  C++  |
     10034 - Freckles                      |   C   | Kruskal's algorithm
     10035 - Primary Arithmetic            |   C   |
     10038 - Jolly Jumpers                 |   C   |
@@ -137,8 +146,13 @@
     10161 - Ant on a Chessboard           |       | 
     10165 - Stone Game                    |  C++  | Nim
     10189 - Minesweeper                   |  C++  |
++ Volume 102 --------------------------------------------------------------------------------
+    10212 - The Last Non-zero Digit.      |  C++  |
+    10235 - Simply Emirp                  |  C++  |
+    10260 - Soundex                       | C++11 |
 + Volume 103 --------------------------------------------------------------------------------
     10300 - Ecological Premium            |  C++  |
+    10302 - Summation of Polynomials      |  C++  |
     10313 - Pay the Price                 |       | 
     10327 - Flip Sort                     |  C++  | *
     10340 - All in All                    |  C++  |
@@ -164,6 +178,7 @@
     10949 - Kids in a Grid                |  C++  | Hunt-Szymanski algorithm (LCS)
     10970 - Big Chocolate                 |  C++  |
 + Others ------------------------------------------------------------------------------------
+      706 - LCD Display                   |  C++  |
       713 - Adding Reversed Numbers       |  C++  |
       762 - We Ship Cheap                 |   C   | 
       847 - A Multiplication Game         |  C++  | 
@@ -180,8 +195,10 @@
     11172 - Relational Operator           |   C   |
     11183 - Teen Girl Squad               |   C   | Chu–Liu/Edmonds' algorithm   
     11294 - Wedding                       |   C   | 2-SAT
+    11332 - Summing Digits                |  C++  |
     11462 - Age Sort                      |  C++  |
     11498 - Division of Nlogonia          |   C   |
+    11547 - Automatic Answer              |  C++  |
     11636 - Hello World!                  |  C++  |
     11727 - Cost Cutting                  |   C   |
     11854 - Egypt                         |  C++  |
