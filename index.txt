@@ -201,8 +201,8 @@
     10783 - Odd Sum                       |   C   |
     10812 - Beat the Spread!              |  C++  |
     10878 - Decode the Tape               |       | 
-    11045 - My T-Shirt Suits Me           |       | 
     11044 - Searching for Nessy           | C++11 |
+    11045 - My T-Shirt Suits Me           |       |
     11150 - Cola                          |  C++  |
     11172 - Relational Operator           |   C   |
     11183 - Teen Girl Squad               |   C   | Chu–Liu/Edmonds' algorithm   
