@@ -7,6 +7,7 @@ public:
     void operator= (const int);
     void operator= (const char *);
     big_num operator* (const int);
+    big_num & operator= (const big_num &);
     big_num & operator+= (const big_num &);
     friend ostream& operator<<(ostream& os, const big_num& dt);
 };
