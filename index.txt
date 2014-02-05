@@ -64,7 +64,10 @@
       305 - Joseph                        |  C++  |
       307 - Sticks                        |   C   | Depth-fisrt search
       344 - Roman Digititis               |  C++  |
+      352 - The Seasonal War              | C++11 |
+      357 - Let Me Count The Ways         | C++11 |
       369 - Combinations                  |  C++  |
+      371 - Ackermann Functions           | C++11 |
       374 - Big Mod                       |  C++  |
       382 - Perfection                    |  C++  |
 + Volume 4 ----------------------------------------------------------------------------------
@@ -76,6 +79,7 @@
       417 - Word Index                    |  C++  |
       424 - Integer Inquiry               |  C++  |
       440 - Eeny Meeny Moo                |  C++  | Josephus problem
+      442 - Matrix Chain Multiplication   | C++11 |
       445 - Marvelous Mazes               |  C++  |
       458 - The Decoder                   |       | 
       476 - Points in Figures: Rectangles |       |
@@ -84,8 +88,11 @@
       478 - Points in Figures: Rectangles |       |
             and Circles, and Triangles    |       |
       483 - Word Scramble                 |  C++  |
+      484 - The Department of Redundancy  | C++11 |
+            Department                    |       |
       488 - Triangle Wave                 |       | 
       490 - Rotating Sentences            |  C++  |
+      492 - Pig-Latin                     | C++11 |
       495 - Fibonacci Freeze              |  C++  |
       494 - Kindergarten Counting Game    |       |
       499 - What's The Frequency, Kenneth |  C++  |
@@ -147,9 +154,11 @@
     10161 - Ant on a Chessboard           |       | 
     10165 - Stone Game                    |  C++  | Nim
     10189 - Minesweeper                   |  C++  |
+    10192 - Vacation                      | C++11 |
 + Volume 102 --------------------------------------------------------------------------------
     10212 - The Last Non-zero Digit.      |  C++  |
     10235 - Simply Emirp                  |  C++  |
+    10252 - Common Permutation            | C++11 |
     10260 - Soundex                       | C++11 |
 + Volume 103 --------------------------------------------------------------------------------
     10300 - Ecological Premium            |  C++  |
@@ -165,6 +174,7 @@
     10405 - Longest Common Subsequence    |  C++  | Longest common subsequence 
     10410 - Tree Reconstruction           |   C   | 
     10420 - List of Conquests             |  C++  |
+    10424 - Love Calculator               | C++11 | 
     10432 - Polygon Inside a Circle       |       | 
     10433 - Automorphic Numbers           |       | 
     10469 - To Carry or not to Carry      |  C++  |
@@ -192,6 +202,7 @@
     10812 - Beat the Spread!              |  C++  |
     10878 - Decode the Tape               |       | 
     11045 - My T-Shirt Suits Me           |       | 
+    11044 - Searching for Nessy           | C++11 |
     11150 - Cola                          |  C++  |
     11172 - Relational Operator           |   C   |
     11183 - Teen Girl Squad               |   C   | Chu–Liu/Edmonds' algorithm   
