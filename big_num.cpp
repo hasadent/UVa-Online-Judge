@@ -60,7 +60,7 @@ big_num & big_num::operator+=(big_num const &rhs)
 big_num & big_num::operator=(big_num const &rhs)
 {
     for (int i = 0; i < BIG_NUM_SIZE; i++)
-        num[i] += rhs.num[i];
+        num[i] = rhs.num[i];
 
     return *this;
 }
