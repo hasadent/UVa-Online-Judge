@@ -6,6 +6,7 @@ public:
     big_num();
     void operator= (const int);
     void operator= (const char *);
+    big_num operator+ (const big_num &);
     big_num operator* (const int);
     big_num & operator= (const big_num &);
     big_num & operator+= (const big_num &);
@@ -63,6 +64,24 @@ big_num & big_num::operator=(big_num const &rhs)
         num[i] = rhs.num[i];
 
     return *this;
+}
+
+big_num big_num::operator+(const big_num & n)
+{
+    big_num r;
+
+    for (int i = 0; i < BIG_NUM_SIZE; i++)
+    {
+        r.num[i] = num[i] + n.num[i];
+    }
+
+    for (int i = BIG_NUM_SIZE - 1; i > 0; i--)
+    {
+        r.num[i-1] += r.num[i] / 10000;
+        r.num[i]   = r.num[i] % 10000;
+    }
+
+    return r;
 }
 
 big_num big_num::operator*(const int n)
