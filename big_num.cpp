@@ -4,29 +4,22 @@ class big_num
     int num[BIG_NUM_SIZE];
 public:
     big_num();
-    void operator= (const int);
+
     void operator= (const char *);
-    big_num operator+ (const big_num &);
-    big_num operator* (const int);
-    big_num & operator= (const big_num &);
+
+    void      operator=  (const int);
+    big_num   operator*  (const int);
+    big_num & operator+= (const int);
+
+    big_num & operator=  (const big_num &);
+    big_num   operator+  (const big_num &);
     big_num & operator+= (const big_num &);
+
     friend ostream& operator<<(ostream& os, const big_num& dt);
 };
 
 big_num::big_num()
 {}
-
-void big_num::operator=(const int i)
-{
-    memset(num, 0, sizeof(num));
-    int j = i;
-
-    num[BIG_NUM_SIZE-2] = j / 10000;
-    num[BIG_NUM_SIZE-1] = j % 10000;
-    j /= 10000;
-    num[BIG_NUM_SIZE-3] = j / 10000;
-    num[BIG_NUM_SIZE-2] = j % 10000;
-}
 
 void big_num::operator=(const char *p)
 {
@@ -44,44 +37,15 @@ void big_num::operator=(const char *p)
         num[x] = num[x] * 10 + (p[i] - '0');
 }
 
-big_num & big_num::operator+=(big_num const &rhs)
+void big_num::operator=(const int n)
 {
-    for (int i = 0; i < BIG_NUM_SIZE; i++)
-        num[i] += rhs.num[i];
+    memset(num, 0, sizeof(num));
+    int j = n;
 
-    for (int i = BIG_NUM_SIZE - 1; i > 0; i--)
-    {
-        num[i-1] += num[i] / 10000;
-        num[i]   =  num[i] % 10000;
-    }
-
-    return *this;
-}
-
-big_num & big_num::operator=(big_num const &rhs)
-{
-    for (int i = 0; i < BIG_NUM_SIZE; i++)
-        num[i] = rhs.num[i];
-
-    return *this;
-}
-
-big_num big_num::operator+(const big_num & n)
-{
-    big_num r;
-
-    for (int i = 0; i < BIG_NUM_SIZE; i++)
-    {
-        r.num[i] = num[i] + n.num[i];
-    }
-
-    for (int i = BIG_NUM_SIZE - 1; i > 0; i--)
-    {
-        r.num[i-1] += r.num[i] / 10000;
-        r.num[i]   = r.num[i] % 10000;
-    }
-
-    return r;
+    num[BIG_NUM_SIZE-1] = j % 10000;
+    j /= 10000;
+    num[BIG_NUM_SIZE-2] = j % 10000;
+    num[BIG_NUM_SIZE-3] = j / 10000;
 }
 
 big_num big_num::operator*(const int n)
@@ -100,6 +64,66 @@ big_num big_num::operator*(const int n)
     }
 
     return r;
+}
+
+big_num & big_num::operator+=(const int n)
+{
+    int j = n;
+
+    num[BIG_NUM_SIZE-1] += j % 10000;
+    j /= 10000;
+    num[BIG_NUM_SIZE-2] += j % 10000;
+    num[BIG_NUM_SIZE-3] += j / 10000;
+
+
+    for (int i = BIG_NUM_SIZE - 1; i > 0; i--)
+    {
+        num[i-1] += num[i] / 10000;
+        num[i]   =  num[i] % 10000;
+    }
+
+    return *this;
+}
+
+big_num & big_num::operator=(big_num const &rhs)
+{
+    for (int i = 0; i < BIG_NUM_SIZE; i++)
+        num[i] = rhs.num[i];
+
+    return *this;
+}
+
+
+big_num big_num::operator+(const big_num & rhs)
+{
+    big_num r;
+
+    for (int i = 0; i < BIG_NUM_SIZE; i++)
+    {
+        r.num[i] = num[i] + rhs.num[i];
+    }
+
+    for (int i = BIG_NUM_SIZE - 1; i > 0; i--)
+    {
+        r.num[i-1] += r.num[i] / 10000;
+        r.num[i]   = r.num[i] % 10000;
+    }
+
+    return r;
+}
+
+big_num & big_num::operator+= (big_num const &rhs)
+{
+    for (int i = 0; i < BIG_NUM_SIZE; i++)
+        num[i] += rhs.num[i];
+
+    for (int i = BIG_NUM_SIZE - 1; i > 0; i--)
+    {
+        num[i-1] += num[i] / 10000;
+        num[i]   =  num[i] % 10000;
+    }
+
+    return *this;
 }
 
 ostream& operator<<(ostream& os, const big_num& bn)
