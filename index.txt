@@ -29,6 +29,7 @@
       124 - Following Orders              |  C++  | Depth-fisrt search
       127 - "Accordian" Patience          |       | 
       128 - Software CRC                  |   C   | 
+      130 - Roman Roulette                |  C++  |
       133 - The Dole Queue                |  C++  | Josephus problem
       136 - Ugly Numbers                  |   C   |
       138 - Street Numbers                |   C   |
