@@ -49,6 +49,7 @@
       160 - Factors and Factorials        |   C   |
       161 - Traffic Lights                |  C++  |
       162 - Beggar My Neighbour           |  C++  |
+      166 - Making Change                 |  C++  | Dynamic programing
       167 - The Sultan's Successors       |   C   |
       170 - Clock Patience                |  C++  | 
       190 - Circle Through Three Points   |   C   |
