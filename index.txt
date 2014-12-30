@@ -54,6 +54,7 @@
       170 - Clock Patience                |  C++  | 
       172 - Calculator Language           |  C++  |
       175 - Keywords                      |  C++  |
+      183 - Bit Maps                      |  C++  |
       185 - Roman Numerals                |  C++  |
       190 - Circle Through Three Points   |   C   |
       191 - Intersection                  |   C   | Segments intersect
