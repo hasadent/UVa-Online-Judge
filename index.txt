@@ -128,6 +128,8 @@
       674 - Coin Change                   |  C++  |      
       686 - Goldbach's Conjecture (II)    |  C++  |
       694 - The Collatz Sequence          |  C++  | 
++ Volume 8 ----------------------------------------------------------------------------------
+      893 - Y3K Problem                   |  C++  |
 + Volume 9 ----------------------------------------------------------------------------------
       900 - Brick Wall Patterns           |  C++  |
       913 - Joana and the Odd Numbers     |   C   |
