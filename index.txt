@@ -46,6 +46,7 @@
       154 - Recycling                     |  C++  |
       155 - All Squares                   |  C++  |
       156 - Ananagrams                    |  C++  |
+      159 - Word Crosses                  |  C++  |
       160 - Factors and Factorials        |   C   |
       161 - Traffic Lights                |  C++  |
       162 - Beggar My Neighbour           |  C++  |
